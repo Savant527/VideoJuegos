@@ -1,0 +1,62 @@
+.nav {
+ display: flex;
+ justify-content: space-between !important;
+ font-size: 15px;
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+.texto {
+ display: flex;
+ justify-content: center;
+ padding: 2%;
+}
+.card {
+  margin: 1%;
+}
+.cartas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+.footer{
+  background: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.logo {
+  width: 100px;
+}
+.footer-izquierda {
+  padding: 1%;
+  margin-left: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-centro {
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.footer-derecha {
+  padding: 1%;
+  margin-right: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.imagen  { 
+  margin: 5%;
+}
