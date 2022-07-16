@@ -1,30 +1,52 @@
 .nav {
  display: flex;
  justify-content: space-between !important;
- font-size: 15px;
+
 }
 .titulo {
   display: flex;
   justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 50px;
+  font-weight: 700;
 }
 .texto {
  display: flex;
+  text-align: justify;
  justify-content: center;
- padding: 2%;
+ flex-direction: column;
+ flex-wrap: wrap;
+ letter-spacing: 0.5px;
+  padding: 0% 9% 0% 9%;
+  font-size: 18px;
 }
 .card {
-  margin: 1%;
+  display: flex;
+  margin-bottom: 5%;
+  border-radius: 15px; 
+  box-shadow: 0 4px 9px rgb(117, 117, 117);
 }
 .cartas {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
+  }
+  .titulo-carta {
+    text-align: center;
+  }
+  .texto-carta {
+    text-align: center;
+  }
+  .boton {
+    margin-left: 25%;
   }
 .footer{
-  background: black;
+  background: #212529;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -33,7 +55,6 @@
 }
 .footer-izquierda {
   padding: 1%;
-  margin-left: 3%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,17 +67,43 @@
   align-items: center;
   justify-content: center;
   color: white;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 1%;
 }
 .footer-derecha {
   padding: 1%;
-  margin-right: 3%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   color: white;
 }
-
-.imagen  { 
+.iconos {
+  display: flex;
+  flex-direction: row;
+}
+.iconos a { 
+  color: white;
   margin: 5%;
+}
+
+@media only screen and (max-width: 700px) and (min-width: 5px) {
+
+  .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .footer-izquierda {
+    margin-top: 5%;
+  }
+  .footer-centro {
+   margin-top: 5%;
+   margin-bottom: 2%;
+  }
+  .footer-derecha {
+    margin-bottom: 5%;
+  }
 }

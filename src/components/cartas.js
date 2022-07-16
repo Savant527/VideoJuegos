@@ -6,12 +6,12 @@ function CartaApp() {
     <Card style={{ width: '18rem' }} className="card">
       <Card.Img variant="top" src={Imagen4} />
       <Card.Body>
-        <Card.Title>Gta V</Card.Title>
-        <Card.Text>
+        <Card.Title className='titulo-carta' ><strong>Gta V</strong></Card.Title>
+        <Card.Text className='texto-carta'>
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary" className='boton'>Go somewhere</Button>
       </Card.Body>
     </Card>
   );

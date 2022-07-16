@@ -20,11 +20,12 @@ export const Footer = () => {
         <p>CBI Palmira</p>
       </div>
       <div className="footer-derecha">
-          <a href=""></a> <BsFacebook size ={40} className="imagen"/>
-          <BsInstagram size ={40} className="imagen"/>
-          <BsTwitter size ={40} className="imagen"/>
-          <BsGithub size ={40} className="imagen"/>
-
+        <div className="iconos">
+        <a href=""><BsFacebook size ={30} className="imagen"/></a>
+          <a href=""><BsInstagram size ={30} className="imagen"/></a>
+          <a href=""><BsTwitter size ={30} className="imagen"/></a>
+          <a href=""><BsGithub size ={30} className="imagen"/></a>
+        </div> 
       </div>
     </div>
   );
