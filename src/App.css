@@ -7,6 +7,15 @@
   border-radius: 15px; 
   box-shadow: 0 4px 9px rgb(117, 117, 117);
 }
+.texto-carta{
+  height: 15vh;
+  overflow-y: scroll;
+}
+.texto-carta::-webkit-scrollbar-thumb {
+  background-color: #30353a;
+  box-shadow: #30353a;
+  border-radius: 12px;
+}
 
 .logo {
   width: 100px;
@@ -14,5 +23,8 @@
 
 .iconos a { 
   color: white;
+}
+.footer-abajo{
+  background-color: #30353a;
 }
 

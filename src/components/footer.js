@@ -10,8 +10,9 @@ import { BsGithub } from "react-icons/bs";
 
 export const Footer = () => {
   return (
-    <div className="footer row d-flex justify-content-center align-items-center m-0 bg-dark text-white p-2 row-cols-md-3 row-cols-sm-1">
-      <div className="footer-izquierda d-flex justify-content-center align-items-center p-2">
+    <div className="footer">
+    <div className="row d-flex justify-content-center align-items-center m-0 bg-dark text-white p-2 row-cols-md-3 row-cols-sm-1">
+    <div className="footer-izquierda d-flex justify-content-center align-items-center p-2">
         <a><img src={Imagen5} className="logo"></img></a>
       </div>
       <div className="footer-centro text-center p-2">
@@ -26,6 +27,10 @@ export const Footer = () => {
           <a href=""><BsTwitter size ={30} className="imagen m-2"/></a>
           <a href=""><BsGithub size ={30} className="imagen m-2"/></a>
         </div> 
+      </div>
+    </div>
+      <div className=" row m-0 p-3 footer-abajo text-center text-white">
+        <small> ©2022 <strong>Sebastian Navas</strong> - Todos los derechos reservados</small>
       </div>
     </div>
   );
