@@ -10,7 +10,7 @@ function CartaApp({titulo,imagen,texto}) {
       <Card.Body>
         <Card.Title className='titulo-carta' ><strong>{titulo}</strong></Card.Title>
         <Card.Text className='texto-carta'>{texto}</Card.Text>
-        <Button variant="primary" className='boton'>Go somewhere</Button>
+        <Button variant="dark" className='boton'>Go somewhere</Button>
       </Card.Body>
     </Card>
   );

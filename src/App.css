@@ -11,12 +11,14 @@
   height: 15vh;
   overflow-y: scroll;
 }
+.texto-carta::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
 .texto-carta::-webkit-scrollbar-thumb {
   background-color: #30353a;
   box-shadow: #30353a;
   border-radius: 12px;
 }
-
 .logo {
   width: 100px;
 }
